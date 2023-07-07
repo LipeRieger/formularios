@@ -1,4 +1,4 @@
-#cad_pessoas{
+*{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -42,7 +42,7 @@
 #cad_pessoas form #button{
     width: 84%;
     margin-left: 8%;
-    background-color: rgb(0, 94, 255);
+    background-color: rgb(0, 93, 254);
     border: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -55,4 +55,46 @@
     background-color: rgb(0, 43, 116);
     cursor: pointer;
     transition: .2s ease;
+}
+
+#busca{
+    background-color: whitesmoke;
+}
+
+#busca form{
+    width: 30%;
+    height: 60px;
+    border: 1px solid red;
+    margin-left: 35%;
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+#busca form #bar{
+    width: 82%;
+    height: 100%;
+    border-radius: 60px;
+    text-align: left;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.475);
+    padding-left: 30px;
+    font-size: 20px;
+    color: rgb(255, 0, 183);
+    margin-top: 0;
+}
+
+#busca form #bar::placeholder{
+    color: rgb(176, 13, 133);
+}
+
+#busca form #button{
+    width: 15%;
+    height: 90%;
+    margin-top: 0.7%;
+    margin-left: 3%;
+    border-radius: 100%;
+    border: none;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3034/3034021.png);
+    background-image: linear-gradient(to bottom, rgb(214, 28, 143), rgb(111, 7, 145));
 }
