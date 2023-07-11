@@ -4,7 +4,33 @@
 }
 
 ul li{
-    text-align: left;
+    display: block;
+    float: left;
+    list-style: none;
+    background-color: whitesmoke;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 15px;
+    width: 20%;
+    margin-left: 3%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.575);
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+ul li:last-child{
+    text-decoration: line-through;
+}
+
+ul li:hover{
+    transform: scale(0.98);
+    background-color: rgb(141, 141, 141);
+}
+
+ul li a{
+    text-decoration: none;
 }
 
 /*Página de Cadastro*/
